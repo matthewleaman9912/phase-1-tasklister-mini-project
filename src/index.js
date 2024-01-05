@@ -14,9 +14,9 @@ function handleJob (newList) {
   btn.textContent = 'x';
   p.textContent = newList + ' ';
   p.appendChild(btn);
-  if (newList != "" && newList != " " && newList != "  ") {
+  //if (newList != "" && newList != " " && newList != "  ") {
       document.querySelector('#tasks').appendChild(p);
-  }
+  //}
 }
 
 function handleX (e) {
